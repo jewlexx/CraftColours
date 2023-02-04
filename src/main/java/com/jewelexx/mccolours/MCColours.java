@@ -1,10 +1,10 @@
-package com.jewelexx;
+package com.jewelexx.mccolours;
 
 /**
  * Hello world!
  *
  */
-public static final class MCColours {
+public final class MCColours {
     public static final String DARK_RED = "§4";
     public static final String RED = "§c";
     public static final String GOLD = "§6";
