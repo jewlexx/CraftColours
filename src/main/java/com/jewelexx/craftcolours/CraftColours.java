@@ -1,6 +1,6 @@
-package com.jewelexx.mccolours;
+package com.jewelexx.craftcolours;
 
-public final class MCColours {
+public final class CraftColours {
     public static final String DARK_RED = "§4";
     public static final String RED = "§c";
     public static final String GOLD = "§6";
