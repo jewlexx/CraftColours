@@ -1,9 +1,5 @@
 package com.jewelexx.mccolours;
 
-/**
- * Hello world!
- *
- */
 public final class MCColours {
     public static final String DARK_RED = "§4";
     public static final String RED = "§c";
