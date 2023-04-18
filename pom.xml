@@ -16,7 +16,7 @@
       <roles>
         <role>developer</role>
       </roles>
-      <email>grassojames5@gmail.com</email>
+      <email>public@jewelexx.com</email>
       <url>https://www.jewelexx.com</url>
     </developer>
   </developers>
@@ -37,13 +37,10 @@
     <url>https://github.com/jewlexx/CraftColours</url>
   </scm>
   <distributionManagement>
-    <snapshotRepository>
-      <id>ossrh</id>
-      <url>https://s01.oss.sonatype.org/content/repositories/snapshots</url>
-    </snapshotRepository>
     <repository>
-      <id>ossrh</id>
-      <url>https://s01.oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+      <id>github</id>
+      <name>GitHub jewlexx Apache Maven Packages</name>
+      <url>https://maven.pkg.github.com/jewlexx/CraftColours</url>
     </repository>
   </distributionManagement>
   <profiles>
