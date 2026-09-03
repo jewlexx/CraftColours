@@ -8,7 +8,7 @@ version = "1.0.2"
 
 publishing {
     publications {
-        create<MavenPublication>("craftColoursLibrary") {
+        register<MavenPublication>("gpr") {
             from(components["java"])
         }
     }
@@ -17,6 +17,10 @@ publishing {
         maven {
             name = "GitHubPackages"
             url = uri("https://maven.pkg.github.com/cordor/CraftColours")
+            credentials {
+                username = project.findProperty("gpr.user") as String? ?: System.getenv("GITHUB_USERNAME")
+                password = project.findProperty("gpr.key") as String? ?: System.getenv("GITHUB_TOKEN")
+            }
         }
     }
 }
